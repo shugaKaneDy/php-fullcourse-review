@@ -17,5 +17,44 @@ $result = match() {
 };
  */
 
+//  ARRAY
+// unset() = making array empty or something but deosnt remove it
+// array_splice($array, $from, $length);
+// array_splice($array, 2, 0, "Mango"); = makes a value between values can be also merge array
+// count($array)
+// sort()
 
-echo "Hello World!";
+//  BUILT IN FUNCTIONS
+// strlen()
+// strpos($str, "a")
+// str_replace("World",$str, "Daniele");
+// strtolower()
+// strtoupper()
+// substr($str, $from, $length);
+// explode(" " ,$str); = makes the string into array
+// abs();
+// round();
+// pow();
+// sqrt();
+// random(1, 100);
+// is_array();
+// array_reverse($array);
+// array_merge(1,2);
+// date("Y-m-d H:i:s");
+// time(); = in sec
+// strtotime = converts str to time
+
+// FUNCTION
+// function sayHello($name = "Kane") {} = default value 
+// global $test = inorder to use the variable in outside the scope
+// GLOBAL["test"];
+
+// CONSTANT
+// always define your CONSTANT at the top of your code
+// Can be use in within the scope of functions
+// define("PI", 3.14);
+// echo PI;
+
+// LOOPS
+
+// foreach ($array as $key => $value) {}
