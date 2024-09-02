@@ -58,3 +58,7 @@ $result = match() {
 // LOOPS
 
 // foreach ($array as $key => $value) {}
+
+// echo $_SERVER['HTTP_USER_AGENT']; =  browser, operating system, and device type.
+// echo "<br/>";
+// echo $_SERVER['REMOTE_ADDR']; = IP address
