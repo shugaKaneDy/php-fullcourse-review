@@ -62,3 +62,8 @@ $result = match() {
 // echo $_SERVER['HTTP_USER_AGENT']; =  browser, operating system, and device type.
 // echo "<br/>";
 // echo $_SERVER['REMOTE_ADDR']; = IP address
+
+// SESSION
+// session_unset() = deleting all sessions
+// session_destroy() = destroy all sessions but will only effective when you go to the other page
+// unset($_SESSION["username"]) = deleting session variable
