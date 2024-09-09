@@ -8,6 +8,21 @@
 </head>
 <body>
 
+  <form action="" id="form" class="p-5">
+    <label for="fname">First name</label>
+    <input type="text" name="" id="fname">
+
+    <br>
+
+    <label for="lname">Last name</label>
+    <input type="text" name="" id="lname">
+
+    <br>
+
+    <button id="submit-btn" class="btn btn-light border border-dark btn-sm m-3 mx-auto">Submit</button>
+
+  </form>
+
   <button id="load-btn" class="btn btn-light border border-dark btn-sm m-3">Load</button>
   <div id="main-container">
 
